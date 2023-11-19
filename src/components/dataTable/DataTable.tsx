@@ -29,10 +29,11 @@ const DataTable = (props: Props) => {
   // //   }
   // // });
 
-  // const handleDelete = (id: number) => {
-  //   //delete the item
-  //   // mutation.mutate(id)
-  // };
+  const handleDelete = (id: number) => {
+    console.log(id)
+    //delete the item
+    // mutation.mutate(id)
+  };
 
   const actionColumn: GridColDef = {
     field: "action",
